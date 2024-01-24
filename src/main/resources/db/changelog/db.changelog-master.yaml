@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:/db/changelog/changes/001-create-customer-table.sql
+  - include:
+      file: classpath:/db/changelog/changes/002-add-customer.sql
